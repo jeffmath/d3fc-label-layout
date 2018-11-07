@@ -4,7 +4,6 @@
   (factory((global.fc = global.fc || {}),global.d3,global.d3,global.d3));
 }(this, (function (exports,d3Array,d3Selection,d3Scale) { 'use strict';
 
-
 var functor = (function (d) {
   return typeof d === 'function' ? d : function () {
     return d;
